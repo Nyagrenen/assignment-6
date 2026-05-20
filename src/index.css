@@ -1,0 +1,25 @@
+#movies {
+    margin: 0;
+    padding: 0;
+}
+
+#movies > li {
+    list-style: none;
+    background-color: white;
+    margin: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px gray;
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.star-icon {
+    height: 25px;
+}
+
+.delete-movie-icon {
+    height: 25px;
+    margin-left: auto;
+    cursor: pointer;
+}
